@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/calc.css" rel="stylesheet">
+	<title>CALCULATOR</title>
+</head>
+
+<body>
+	<!-- CALCULATOR -->
+	<div class="calculator">
+		<!-- CALCULATOR FORM -->
+		<form class="calculator__form">
+			<!-- CALCULATOR ROW -->
+			<div class="calculator__row__display">
+				<input class="calculator__display_1" type="text" disabled/>
+				<input class="calculator__display_2" type="text" disabled/>
+				<input class="calculator__display_3" type="text" disabled />
+			</div>
+			<!-- CALCULATOR ROW -->
+			<div class="calculator__row__memory">
+				<button id="memclear" type="button" value="MC" class="calculator__key calculator__memclear"></button>
+				<button id="memrecovery" type="button" value="MR"
+					class="calculator__key calculator__memrecovery"></button>
+				<button id="memplus" type="button" value="M+" class="calculator__key calculator__memplus"></button>
+				<button id="memminus" type="button" value="M-" class="calculator__key calculator__memminus"></button>
+			</div>
+			<!-- CALCULATOR ROW -->
+			<div class="calculator__row">
+				<button id="clear" type="button" value="C" class="calculator__key calculator__clear"></button>
+				<button id="backspace" type="button" value="<=" class="calculator__key calculator__backspace"></button>
+				<button id="percent" type="button" value="%" class="calculator__key calculator__percent"></button>
+				<button id="divide" type="button" value="/" class="calculator__key calculator__divide"></button>
+			</div>
+			<!-- CALCULATOR ROW -->
+			<div class="calculator__row">
+				<button id="seven" type="button" value="7" class="calculator__key calculator__button"></button>
+				<button id="eight" type="button" value="8" class="calculator__key calculator__button"></button>
+				<button id="nine" type="button" value="9" class="calculator__key calculator__button"></button>
+				<button id="mult" type="button" value="*" class="calculator__key calculator__mult"></button>
+			</div>
+			<!-- CALCULATOR ROW -->
+			<div class="calculator__row">
+				<button id="four" type="button" value="4" class="calculator__key calculator__button"></button>
+				<button id="five" type="button" value="5" class="calculator__key calculator__button"></button>
+				<button id="six" type="button" value="6" class="calculator__key calculator__button"></button>
+				<button id="minus" type="button" value="-" class="calculator__key calculator__minus"></button>
+			</div>
+			<!-- CALCULATOR ROW -->
+			<div class="calculator__row">
+				<button id="one" type="button" value="1" class="calculator__key calculator__button"></button>
+				<button id="two" type="button" value="2" class="calculator__key calculator__button"></button>
+				<button id="three" type="button" value="3" class="calculator__key calculator__button"></button>
+				<button id="plus" type="button" value="+" class="calculator__key calculator__plus"></button>
+			</div>
+			<!-- CALCULATOR ROW -->
+			<div class="calculator__row">
+				<button id="zero" type="button" value="0" class="calculator__key calculator__button"></button>
+				<button id="point" type="button" value="." class="calculator__key calculator__point"></button>
+				<button id="plmin" type="button" value="+/-" class="calculator__key calculator__plmin"></button>
+				<button id="keyequal" type="button" value="=" class="calculator__key calculator__key__equal"></button>
+			</div>
+		</form>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="javascript/main.js"></script>
+</body>
+
+</html>
